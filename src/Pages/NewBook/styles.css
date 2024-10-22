@@ -1,0 +1,76 @@
+.newbook-container{
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.newbook-container .content{
+    width: 100%;
+    padding: 100px;
+    background-color: hsl(240, 8%, 87%);
+    border-radius: 6px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.newbook-container .content section{
+    width: 100%;
+    max-width: 380px;
+    
+}
+
+.newbook-container section.form{
+    width: 100%;
+    max-width: 350px;
+    margin-right: 32px;
+}
+
+.newbook-container .form img{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.newbook-container .content section h1{
+    text-align: center;
+    font-size: 32px;
+    padding-top: 20px;
+    margin-top: 60px 0 32px;
+}
+
+.newbook-container .form p{
+    text-align: center;
+    font-size: 18px;
+    color: #737380;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.newbook-container .content form{
+    width: 100%;
+    max-width: 450px;
+}
+
+.newbook-container .content form input{
+    margin-top: 15px;
+    padding: 25px;
+}
+
+.newbook-container .content .form .back-link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #2a20e0;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: 16px;
+}
+

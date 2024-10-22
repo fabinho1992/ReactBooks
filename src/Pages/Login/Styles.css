@@ -1,0 +1,46 @@
+.login-container{
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container section{
+    width: 100%;
+    max-width: 350px;
+    margin-left: 5%;
+}
+
+.login-container section img {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.login-container section h1{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 60px;
+}
+
+.login-container section form{
+   margin-top: 30px;
+}
+
+.padlock{
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media (max-width: 700px) {
+    .login-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
