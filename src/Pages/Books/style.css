@@ -101,7 +101,24 @@
 .book-container ul li p {
     font-size: 16px;
     line-height: 20px;
-    color: #b3b3b4;
+    color: #929292;
+}
+
+.button_load{
+    width: 20%;
+    height: 60px;
+    background: #2a20e0;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-top: 16px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 60px;
+    cursor: pointer;
+    color: #dcdce6;
+    
+    transition: filter 1s;
 }
 
 
